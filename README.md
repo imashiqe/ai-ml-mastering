@@ -1,4 +1,4 @@
-# Artificial Intelligence Lab
+# Artificial Intelligence & Machine Learning
 
 This repository contains experiments, notes, and implementations related to **Artificial Intelligence (AI)** using **Python**.
 
