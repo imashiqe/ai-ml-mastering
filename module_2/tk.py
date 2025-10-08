@@ -38,27 +38,53 @@
 #         print("Accuracy is 100%")
 #         break
 
+# inp = input()
+
+# numbers = inp.split()
+
+# x = int(numbers[0])
+# y = int(numbers[1])
+# z = int(numbers[2])
+
+# 1
+# minimum = x
+# maximum = x
+
+# if minimum > y:
+#     minimum = y
+# if minimum > z:
+#     minimum = z
+
+# if y > maximum:
+#     maximum = y
+# if z > maximum:
+#     maximum = z
+
+# print (minimum , maximum)
+
+n = int(input())
+
 inp = input()
-
 numbers = inp.split()
+positive = 0
+negative = 0
+even = 0
+odd = 0
 
-x = int(numbers[0])
-y = int(numbers[1])
-z = int(numbers[2])
+for i in range(n):
+    x = int(numbers[i])
 
-1
-minimum = x
-maximum = x
+    if x > 0:
+        positive += 1
+    elif x < 0:
+        negative += 1
 
-if minimum > y:
-    minimum = y
-if minimum > z:
-    minimum = z
+    if x % 2 == 0:
+        even += 1
+    else:
+        odd += 1
 
-if y > maximum:
-    maximum = y
-if z > maximum:
-    maximum = z
-
-print (minimum , maximum)
-
+print("Even:", even)
+print("Odd:", odd)
+print("Positive:", positive)
+print("Negative:", negative)
