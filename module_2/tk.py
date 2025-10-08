@@ -18,12 +18,22 @@
 #     print(count, "Hello World")
 #     count = count + 1
 
-sum = 0
-for i in range(1,11):
-    print (i, "is processing")
+# sum = 0
+# for i in range(1,11):
+#     print (i, "is processing")
 
-    if i % 2 == 0: 
-       continue
+#     if i % 2 == 0: 
+#        continue
 
-    sum = sum + i
-    print(i , "is added to the sum")
+#     sum = sum + i
+#     print(i , "is added to the sum")
+
+
+accuracy = 95
+
+for i in range(20):
+    accuracy += 1
+    print(accuracy)
+    if accuracy == 100:
+        print("Accuracy is 100%")
+        break
