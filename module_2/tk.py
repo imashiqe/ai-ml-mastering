@@ -29,11 +29,36 @@
 #     print(i , "is added to the sum")
 
 
-accuracy = 95
+# accuracy = 95
 
-for i in range(20):
-    accuracy += 1
-    print(accuracy)
-    if accuracy == 100:
-        print("Accuracy is 100%")
-        break
+# for i in range(20):
+#     accuracy += 1
+#     print(accuracy)
+#     if accuracy == 100:
+#         print("Accuracy is 100%")
+#         break
+
+inp = input()
+
+numbers = inp.split()
+
+x = int(numbers[0])
+y = int(numbers[1])
+z = int(numbers[2])
+
+1
+minimum = x
+maximum = x
+
+if minimum > y:
+    minimum = y
+if minimum > z:
+    minimum = z
+
+if y > maximum:
+    maximum = y
+if z > maximum:
+    maximum = z
+
+print (minimum , maximum)
+
