@@ -9,5 +9,11 @@
 # else:
 #     print("Save money")
 
-for i in range(11):
-    print(i , "Hello World")
+# for i in range(11):
+#     print(i , "Hello World")
+
+count = 1
+
+while count <= 10:
+    print(count, "Hello World")
+    count = count + 1
